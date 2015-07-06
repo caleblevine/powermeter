@@ -6,7 +6,7 @@ $(function () {
                 zoomType: 'x'
             },
             title: {
-                text: 'USD to EUR exchange rate over time'
+                text: 'Power Consumption (Watts) over time'
             },
             subtitle: {
                 text: document.ontouchstart === undefined ?
@@ -17,7 +17,7 @@ $(function () {
             },
             yAxis: {
                 title: {
-                    text: 'Exchange rate'
+                    text: 'Power consumption'
                 }
             },
             legend: {
